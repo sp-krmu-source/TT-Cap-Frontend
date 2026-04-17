@@ -4,7 +4,7 @@ import { useState, useCallback, useEffect } from "react";
 import { SLOTS, DAYS, DAY_LABELS, TRAINER_NAMES, getCell } from "../data/timetableData";
 import LoginModal from "./LoginModal";
 
-const API_BASE = (typeof import.meta !== "undefined" && import.meta.env?.VITE_API_URL) || "http://localhost:8080/api";
+const API_BASE = (typeof import.meta !== "undefined" && import.meta.env?.VITE_API_URL) || "https://ttcap-backend.onrender.com/api";
 
 const DAY_FULL = {
   Mo: "Monday", Tu: "Tuesday", We: "Wednesday", Th: "Thursday", Fr: "Friday",
