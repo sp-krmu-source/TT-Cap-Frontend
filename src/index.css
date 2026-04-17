@@ -137,7 +137,7 @@ body {
 /* ================= HEADER ================= */
 .app-header {
     background: linear-gradient(110deg, #071e55 0%, #0b2d72 50%, #0969a0 100%);
-
+    column-gap: 10px;
     position: sticky;
     top: 0;
     z-index: 200;
